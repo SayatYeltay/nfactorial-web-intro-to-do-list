@@ -1,0 +1,54 @@
+.Main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 64px;
+}
+
+.list {
+    height: 82px;
+    width: 240px;
+    background-color: rgba(8, 30, 52, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+.list-todo {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 240px;
+    background-color: rgba(8, 30, 52, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 82px;
+}
+
+.settings2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+.icon {
+    display: flex;
+    align-self: center;
+}
+
+.icon-click {
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+.onetodo {
+    display: flex;
+    gap: 10px;
+}
